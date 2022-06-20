@@ -14,6 +14,8 @@ value="jdbc:mysql://127.0.0.1:3306/B13" />
 <property name="javax.persistence.jdbc.user" value="root" />
 <property name="javax.persistence.jdbc.password"
 value="rash 8904364140" />
+  <property name="hibernate.hbm2ddl.auto" value="update"/>
+<!-- for auto create/update tables -->
 </properties>
 </persistence-unit>
 </persistence>
